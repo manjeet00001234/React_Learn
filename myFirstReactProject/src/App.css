@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -4px rgba(0,0,0,0.1);
+    text-align: center;
+    background-color: #95a5a612;
+}
+
+.logo{
+    width: 10%;
+    cursor: pointer;
+}
+.logo img{
+    width: 70%;
+    height: 70px;
+}
+
+.navlink{
+    width: 40%;
+}
+.navlink ul{
+    display: flex;
+    justify-content: space-between;
+}
+.navlink ul li{
+    list-style-type: none;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.her_burgur{
+    display: none;
+}
+
+.cart_contaner{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    gap: 50px;
+    width: 95%;
+    margin: 50px auto;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.12), 0 2px 2px rgba(0,0,0,0.12);
+}
+.cart{
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.cart img{
+    width: 90%;
+    height: 150px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.cart button{
+    padding: 5px 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: #3498db;
+    color: #fff;
+    cursor: pointer;
+}
+
+@media screen and (min-width:220px) and (max-width:1000px) {
+
+    .navlink{
+        display: none;
+    }
+    .her_burgur{
+        display: block;
+        cursor: pointer;
+    }
+    .logo{
+        width: 30%;
+    }
+    .logo img{
+        width: 90%;
+    }
+}
