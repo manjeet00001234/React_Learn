@@ -1,0 +1,62 @@
+.nav{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.main_contaner{
+    width: 70%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    margin:50px auto;
+    padding: 100px;
+    box-shadow: 0 7px 15px 0 rgba(0, 0, 0, .13), 0 1px 4px 0 rgba(0, 0, 0, .11);
+    background-color: #dff9fb50;
+    border-radius: 10px;
+}
+.signup{
+    /* border: 1px solid gray; */
+    padding: 10px;
+    width: 40%;
+    box-shadow: 0 7px 30px -10px rgba(150,170,180,0.5);
+    background-color: #ffffff;
+    border-radius: 10px;
+
+}
+table{
+    margin: auto;
+    width: 100%;
+}
+
+ table thead tr th,td{
+    border: 1px solid black;
+    align-items: center;
+    /* width: 20%; */
+
+}
+table tr td{
+    font-size: 15px;
+    padding: 5px;
+}
+table tr:nth-child(odd){
+    background-color: #dfe6e9;
+}
+table tr:nth-child(even){
+    background-color: #b2bec3;
+}
+caption{
+    margin: 10px 0;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.login{
+    /* border: 1px solid green; */
+    padding: 10px;
+    width: 40%;
+    box-shadow: 0 7px 30px -10px rgba(150,170,180,0.5);
+    background-color: #ffffff;
+    border-radius: 10px;
+
+}
