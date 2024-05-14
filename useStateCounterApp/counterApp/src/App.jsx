@@ -14,19 +14,22 @@ function App() {
 
 
      const red = () => {
-          setCount((count) => (count > 0 ? count - 1 : 0));
+       // setCount((count) => (count > 0 ? count - 1 : 0));
+
+        setCount(count - 1)
      };
 
      return (
-       <>
-         <h2>COUNTER APP</h2>
-         <div className="main_countaner">
-
+          <>
+               <h2>COUNTER APP</h2>
+               <div className="main_countaner">
                     <h1>{count}</h1>
                     <div className="main_btn">
                          <button onClick={add}>Add</button>
                          <button onClick={reset}>Reset</button>
-                         <button onClick={red}>
+                         <button
+                              disabled={count === 0}
+                              onClick={red}>
                               Reduse
                          </button>
                     </div>
