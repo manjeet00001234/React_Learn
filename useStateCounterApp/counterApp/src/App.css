@@ -55,3 +55,13 @@ button:nth-child(3){
   color:white;
   font-size: 20px;
 }
+
+
+@media screen and (max-width:400px) {
+.main_btn{
+  display: block;
+}
+h1{
+  font-size: 60px;
+}
+}
