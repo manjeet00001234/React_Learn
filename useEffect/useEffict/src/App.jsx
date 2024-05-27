@@ -31,12 +31,7 @@ function App() {
                          <div key={index}>
                               <h1>Id:-{item.id}</h1>
                               <img src={item.image} />
-                              {/* <h2>
-                                   HotelName:-{item.HotelName.slice(0, 5)}.....
-                              </h2> */}
-                              {/* <h2>City:-{item.city}</h2> */}
                               <h2>Category:-${item.category}</h2>
-                              {/* <h2>Price:-${item.category}</h2> */}
                               <h2>Price:-${item.price}</h2>
                               <button>Bye Now</button>
                          </div>

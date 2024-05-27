@@ -5,6 +5,7 @@
   /* border: 1px solid red; */
   background-color: #4b6584;
 }
+
 .log{
   width: 20%;
 }
@@ -13,7 +14,9 @@
   height: 50px;
   padding-top: 5px;
 cursor: pointer;
+
 }
+
 .link{
   width: 60%;
 }
@@ -37,6 +40,17 @@ align-items: center;
   margin: 10px 0;
 }
 
+
+.main_div div img{
+  width: 50%;
+  height: 300px;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+
+.main_div div img:hover{
+  transform: scale(1.02);
+}
 .heam{
   color: #fff;
   font-size: 30px;
@@ -85,16 +99,15 @@ button{
   border-radius: 10px;
   background-color: #1e90ff;
   color: #fff;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+button:hover{
+  transform: scale(1.05);
 }
 
 
 
-
-
-
-
-
-/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap'); */
 body{
 	line-height: 1.5;
 	font-family: 'Poppins', sans-serif;
@@ -117,7 +130,6 @@ ul{
 }
 .footer{
 	background-color: #24262b;
-	/* background-color: #3d72b2; */
     padding: 70px 0;
 }
 .footer-col{
