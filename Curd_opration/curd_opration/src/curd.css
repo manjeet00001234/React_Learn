@@ -1,0 +1,94 @@
+.form_cantaner{
+    box-shadow: 0 3px 16px rgba(246, 244, 244, 0.828), 0 3px 16px rgba(245, 244, 244, 0.794);
+    width: 40%;
+    text-align: center;
+    margin:50px auto;
+    padding: 20px 0;
+}
+
+.form_cantaner form{
+width: 50%;
+margin: auto;
+}
+.form_cantaner form input{
+    width: 100%;
+    height: 40px;
+    font-size: 15px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding: 5px;
+    box-shadow: 5px 5px 3px 5px rgba(0, 0, 0, 0), 0px 0px 2px rgb(0, 0, 0);
+}
+.form_cantaner form button{
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    width: 50%;
+    margin: 20px 0;
+    background-color: #45aaf265;
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+}
+.form_cantaner form button:hover{
+    transform: scale(1.05);
+    background-color: #45aaf2;
+
+}
+
+.table_cantaner{
+    width: 70%;
+    margin:50px auto;
+
+}
+
+.table_cantaner caption{
+    font-size: 40px;
+    font-weight: 600;
+    margin: 50px 0;
+}
+.table_cantaner table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.table_cantaner table tr th{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 0;
+    background-color: gray;
+}
+
+.table_cantaner table tr td{
+    text-align: center;
+    padding: 5px;
+}
+
+.table_cantaner table tr td div{
+    display: flex;
+    justify-content: space-around;
+
+}
+.table_cantaner table tr td div button:nth-child(1){
+    border: none;
+    outline: none;
+    background-color: #26de81;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+.table_cantaner table tr td div button:nth-child(2){
+    border: none;
+    outline: none;
+    background-color: #fc5c65;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.table_cantaner table tr:nth-child(odd){
+    background-color: #d1d8e056;
+}
+.table_cantaner table tr:nth-child(even){
+    background-color: #778ca352;
+}

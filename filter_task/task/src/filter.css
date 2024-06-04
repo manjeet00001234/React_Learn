@@ -1,0 +1,50 @@
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.main_div{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+    gap: 20px;
+    width: 97%;
+    margin:20px auto;
+}
+
+.main_div div{
+    padding: 10px;
+    text-align: center;line-height: 50px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.main_div div img{
+    width: 90%;
+    height: 300px;
+}
+
+h1{
+    display: flex;
+/* align-items: center; */
+justify-content: center;
+margin: 10px 0;
+}
+.main_btn{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 0;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    position: sticky;
+    top: 0%;
+    left: 0%;
+    background-color: rgb(128, 128, 128);
+}
+.main_btn button{
+border: none;
+outline: none;
+padding: 10px 20px;
+border-radius: 10px;
+}
+.main_btn input{
+    outline: none;
+}

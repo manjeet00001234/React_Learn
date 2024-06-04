@@ -1,0 +1,53 @@
+.contaner{
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(350px,1fr));
+    gap: 20px;
+}
+.contaner div img{
+    width: 90%;
+    margin: auto;
+    border-radius: 10px;
+}
+.btn{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+
+.form_handel{
+    width: 100%;
+}
+.form_handel form{
+    width: 100%;
+    text-align: center;
+}
+
+.form_handel form caption{
+    width: 300px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.form_handel form input{
+    width: 100%;
+    height: 30px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    box-shadow: 1px 1px 3px 2px rgba(0,0,0,0.1), 0 1px 2px -1px rgba(0,0,0,0.1);
+    padding: 5px;
+}
+
+.form_handel form button{
+    margin-top: 50px;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #45aaf2;
+}

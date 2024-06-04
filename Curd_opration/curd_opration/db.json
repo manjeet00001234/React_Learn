@@ -1,0 +1,154 @@
+{
+  "data": [
+    {
+      "id": "3128",
+      "name": "manjeet singh",
+      "email": "majeet@gmail.com",
+      "mobile": "86868763789"
+    },
+    {
+      "id": "df49",
+      "data": {
+        "id": "3128",
+        "name": "manjeet singh",
+        "email": "majeet@gmail.com",
+        "mobile": "86868763789"
+      },
+      "status": 201,
+      "statusText": "Created",
+      "headers": {
+        "content-length": "103",
+        "content-type": "application/json"
+      },
+      "config": {
+        "transitional": {
+          "silentJSONParsing": true,
+          "forcedJSONParsing": true,
+          "clarifyTimeoutError": false
+        },
+        "adapter": [
+          "xhr",
+          "http",
+          "fetch"
+        ],
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "env": {},
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "Content-Type": "application/json"
+        },
+        "method": "post",
+        "url": "http://localhost:8080/data",
+        "data": "{\"name\":\"manjeet singh\",\"email\":\"majeet@gmail.com\",\"mobile\":\"86868763789\"}"
+      },
+      "request": {},
+      "name": "ramu",
+      "email": "ramu@gmail.com",
+      "mobile": "86868763700"
+    },
+    {
+      "id": "2f39",
+      "data": {
+        "id": "df49",
+        "data": {
+          "id": "3128",
+          "name": "manjeet singh",
+          "email": "majeet@gmail.com",
+          "mobile": "86868763789"
+        },
+        "status": 201,
+        "statusText": "Created",
+        "headers": {
+          "content-length": "103",
+          "content-type": "application/json"
+        },
+        "config": {
+          "transitional": {
+            "silentJSONParsing": true,
+            "forcedJSONParsing": true,
+            "clarifyTimeoutError": false
+          },
+          "adapter": [
+            "xhr",
+            "http",
+            "fetch"
+          ],
+          "transformRequest": [
+            null
+          ],
+          "transformResponse": [
+            null
+          ],
+          "timeout": 0,
+          "xsrfCookieName": "XSRF-TOKEN",
+          "xsrfHeaderName": "X-XSRF-TOKEN",
+          "maxContentLength": -1,
+          "maxBodyLength": -1,
+          "env": {},
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/json"
+          },
+          "method": "post",
+          "url": "http://localhost:8080/data",
+          "data": "{\"name\":\"manjeet singh\",\"email\":\"majeet@gmail.com\",\"mobile\":\"86868763789\"}"
+        },
+        "request": {},
+        "name": "ramu",
+        "email": "ramu@gmail.com",
+        "mobile": "86868763700"
+      },
+      "status": 201,
+      "statusText": "Created",
+      "headers": {
+        "content-length": "1111",
+        "content-type": "application/json"
+      },
+      "config": {
+        "transitional": {
+          "silentJSONParsing": true,
+          "forcedJSONParsing": true,
+          "clarifyTimeoutError": false
+        },
+        "adapter": [
+          "xhr",
+          "http",
+          "fetch"
+        ],
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "env": {},
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "Content-Type": "application/json"
+        },
+        "method": "post",
+        "url": "http://localhost:8080/data",
+        "data": "{\"data\":{\"id\":\"3128\",\"name\":\"manjeet singh\",\"email\":\"majeet@gmail.com\",\"mobile\":\"86868763789\"},\"status\":201,\"statusText\":\"Created\",\"headers\":{\"content-length\":\"103\",\"content-type\":\"application/json\"},\"config\":{\"transitional\":{\"silentJSONParsing\":true,\"forcedJSONParsing\":true,\"clarifyTimeoutError\":false},\"adapter\":[\"xhr\",\"http\",\"fetch\"],\"transformRequest\":[null],\"transformResponse\":[null],\"timeout\":0,\"xsrfCookieName\":\"XSRF-TOKEN\",\"xsrfHeaderName\":\"X-XSRF-TOKEN\",\"maxContentLength\":-1,\"maxBodyLength\":-1,\"env\":{},\"headers\":{\"Accept\":\"application/json, text/plain, */*\",\"Content-Type\":\"application/json\"},\"method\":\"post\",\"url\":\"http://localhost:8080/data\",\"data\":\"{\\\"name\\\":\\\"manjeet singh\\\",\\\"email\\\":\\\"majeet@gmail.com\\\",\\\"mobile\\\":\\\"86868763789\\\"}\"},\"request\":{},\"name\":\"ramu\",\"email\":\"ramu@gmail.com\",\"mobile\":\"86868763700\"}"
+      },
+      "request": {},
+      "name": "madan lal",
+      "email": "angitsinghjat94@gmail.com",
+      "mobile": "86868760000"
+    }
+  ]
+}
