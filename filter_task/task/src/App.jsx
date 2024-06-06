@@ -4,6 +4,7 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import axios from "axios";
 import Filter from "./Filter";
+import Footer from "./utiliti/Footer";
 
 
 
@@ -195,6 +196,8 @@ function App() {
                          </div>
                     ))}
                </div> */}
+
+               <Footer />
           </>
      );
 }

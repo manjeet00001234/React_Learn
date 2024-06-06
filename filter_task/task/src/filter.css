@@ -4,47 +4,110 @@
     margin: 0%;
     box-sizing: border-box;
 }
+
 .main_div{
+    display: flex;
+    justify-content: space-between;
+
+}
+.side_bar{
+    width: 20%;
+    margin-top: 10px;
+    text-align: center;
+    position: fixed;
+}
+
+
+.side_bar button{
+width: 80%;
+padding: 10px 0;
+margin-top: 10px;
+border: none;
+outline: none;
+border-radius: 10px;
+font-size: 20px;
+font-weight: 600;
+background-color: #34495e;
+color: #fff;
+cursor: pointer;
+}
+.side_bar input{
+width: 80%;
+padding: 10px;
+margin-top: 10px;
+
+outline: none;
+border-radius: 10px;
+
+
+}
+
+
+
+
+
+.project{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
     gap: 20px;
-    width: 97%;
-    margin:20px auto;
+    margin-top: 20px;
+    margin-left: 20%;
+    width: 80%;
+
 }
 
-.main_div div{
+.project div{
     padding: 10px;
-    text-align: center;line-height: 50px;
+    width: 90%;
+    text-align: center;
+    line-height: 50px;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
-.main_div div img{
+
+.project div img{
     width: 90%;
     height: 300px;
 }
 
-h1{
-    display: flex;
-/* align-items: center; */
-justify-content: center;
-margin: 10px 0;
-}
+
+
+
+/* *************top nav bar********** */
 .main_btn{
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 15px 0;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
     position: sticky;
     top: 0%;
     left: 0%;
-    background-color: rgb(128, 128, 128);
+    background-color: #34495e;
 }
-.main_btn button{
-border: none;
-outline: none;
-padding: 10px 20px;
-border-radius: 10px;
+
+.main_btn .img{
+    width: 20%;
+
+    text-align: center;
 }
-.main_btn input{
-    outline: none;
+
+
+.main_btn .img img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+
+.main_btn .btn{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.main_btn .btn h2{
+    color: #fff;
+    font-weight: 600;
 }
